@@ -1,0 +1,6 @@
+minimum_dice,maximum_dice,weight,skill
+5,15,2,skill_1
+5,15,5,skill_2
+5,15,10,skill_3
+5,15,1,skill_4
+5,15,100,skill_5
