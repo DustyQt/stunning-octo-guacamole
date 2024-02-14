@@ -35,8 +35,8 @@ def roll_skill(db, deck):
             skill = select_option(options)
             deck.append(skill)
             print(f'deck: {deck}')
-            index_to_drop = db[db['skill'] == skill].index[0]
-            db.drop(index_to_drop, inplace= True)
+            indexes_to_drop = db[db['skill'] == skill].index
+            db.drop(indexes_to_drop, inplace= True)
             break
         else:
             print('no skills found roll again')
