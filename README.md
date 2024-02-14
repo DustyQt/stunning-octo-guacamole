@@ -7,4 +7,4 @@ to execute just hop into this folder and run 'python app.py'
 
 for adding skills use the format:
 minimum_dice,maximum_dice,weight,skill
-
+in the file skills.csv
